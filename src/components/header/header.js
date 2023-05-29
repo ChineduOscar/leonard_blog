@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       <Link href='/' className='logo'>
         <div className='logos'>
           <div>
-            <img src='/images/logo.png' className='logo' />
+            <img alt='logo' src='/images/logo.png' className='logo' />
           </div>
           <div className='logo_text'>Ugwu Leonard</div>
         </div>

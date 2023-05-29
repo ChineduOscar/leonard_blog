@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 // import '@/styles/about.css';
 
 const About = () => {
@@ -23,10 +24,11 @@ const About = () => {
             Literary and Arts Association (CAULAA). During his first Degree in
             Caritas University Enugu, his name echoed all over the Institution
             because of his poetry renditions in notable events and festivals
-            hosted around the school, they gave him a name 'Leonard is Back' – a
-            name carved out of one of his poetic renditions titled 'Leonard is
-            Back' – the poetry rendition had the audience chorusing the word
-            'Leonard is Back' found at the end of each verse of the poem.
+            hosted around the school, they gave him a name &rsquo;Leonard is
+            Back&rsquo; – a name carved out of one of his poetic renditions
+            titled &rsquo;Leonard is Back&rsquo; – the poetry rendition had the
+            audience chorusing the word &rsquo;Leonard is Back&rsquo; found at
+            the end of each verse of the poem.
           </div>
           <div className='paragraph'>
             It was their best of him for the poem was rhythmic and the content
@@ -76,7 +78,7 @@ const About = () => {
             be the desire to read more literary books, maybe the knowledge of
             literary criticism, may be the ability to get more ideas or
             theoretical analysis and implant them in his books. There was
-            something missing, a vacuum he couldn't fathom. This vacuuming
+            something missing, a vacuum he couldn&rsquo;t fathom. This vacuuming
             desire and passion for creative writing made him go for a second
             degree; a Post Graduate Diploma (PGD) in English and Literary
             Studies, at the University of Nigeria, Nsukka which he completed in

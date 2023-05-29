@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const book = async ({ params }) => {
   const bookId = params.book - 1; //this is not the real id is just the index location of the particular book that was clicked
   const data = await fetch(

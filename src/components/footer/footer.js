@@ -1,4 +1,6 @@
 import React from 'react';
+import Image from 'next/image';
+import style from '../../app/globals.css';
 
 const Footer = () => {
   return (
@@ -6,24 +8,28 @@ const Footer = () => {
       <div className='social-icons'>
         <a href='https://www.facebook.com/xcshertchgxdfas'>
           <img
-            src='images/facebook.png'
+            src='/images/facebook.png'
             alt='social icon'
             className='socials'
           />
         </a>
         <a href='https://instagram.com/ugwuleonardelvis?igshid=bu7r0457z8ry'>
           <img
-            src='images/instagram.png'
+            src='/images/instagram.png'
             alt='social icon'
             className='socials'
           />
         </a>
         <a href='https://twitter.com/UgwuJr1?t=w4fXGCbkmV0TMYo0hC-V9w&s=08'>
-          <img src='images/twitter.png' alt='social icon' className='socials' />
+          <img
+            src='/images/twitter.png'
+            alt='social icon'
+            className='socials       '
+          />
         </a>
         <a href='https://medium.com/@leonardugwujr/'>
           <img
-            src='images/Medium.png'
+            src='/images/Medium.png'
             alt='social icon'
             className='socials medium'
           />

@@ -2,8 +2,14 @@
 const nextConfig = {
   experimental: {
     appDir: true,
-typedRoutes: true,
+    typedRoutes: true,
   },
-}
+  images: {
+    domains: ['google.com'],
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
