@@ -1,19 +1,29 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+<<<<<<< HEAD
 import ReactSlider from '../components/slider/slider';
+=======
+>>>>>>> c7079b11153fc50fbad4eb5a5ad93423a9f14185
 import BookAd from '../components/bookDisplay/bookAd';
 import './page.css';
 
 export default function Home() {
   return (
     <main>
+<<<<<<< HEAD
       <ReactSlider />
+=======
+>>>>>>> c7079b11153fc50fbad4eb5a5ad93423a9f14185
       <div className='home_banner'>
         <div>
           <div className='text_author'>Author</div>
 
+<<<<<<< HEAD
           <div className='author_name'>Ugwu Leonard, Jr</div>
+=======
+          <div className='author_name'>Ugwu Leonard</div>
+>>>>>>> c7079b11153fc50fbad4eb5a5ad93423a9f14185
 
           <Link href='/about'>
             <button>Read More</button>
@@ -22,7 +32,11 @@ export default function Home() {
         <img src='/images/home_image.png' alt='book' className='home_image' />
       </div>
 
+<<<<<<< HEAD
       {/* <div className='section2_home'>
+=======
+      <div className='section2_home'>
+>>>>>>> c7079b11153fc50fbad4eb5a5ad93423a9f14185
         <div>
           <img src='/images/home_image.png' alt='book' className='home_image' />
         </div>
@@ -32,7 +46,11 @@ export default function Home() {
             <button>See More</button>
           </Link>
         </div>
+<<<<<<< HEAD
       </div> */}
+=======
+      </div>
+>>>>>>> c7079b11153fc50fbad4eb5a5ad93423a9f14185
 
       <div className='section3_home'>
         <BookAd />
@@ -40,7 +58,11 @@ export default function Home() {
         <div className='about_in_home'>
           <div>
             <div className='text_author'>About author</div>
+<<<<<<< HEAD
             <div className='author_name'>Ugwu Leonard,Jr</div>
+=======
+            <div className='author_name'>Ugwu Leonard</div>
+>>>>>>> c7079b11153fc50fbad4eb5a5ad93423a9f14185
             <div className='brief_summary'>
               {/* &rsquo; means - ' */}
               It all became a flickering light when Leonard Jr. won the best

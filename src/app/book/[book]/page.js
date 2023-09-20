@@ -26,7 +26,11 @@ const book = async ({ params }) => {
         </div>
       </div>
       <div className='section3_book'>
+<<<<<<< HEAD
         <div className='intro_text'>Place your Order</div>
+=======
+        <div className='intro_text'>where to buy</div>
+>>>>>>> c7079b11153fc50fbad4eb5a5ad93423a9f14185
         <div className='small_text'>Ebook Format</div>
         <div className='array_of_btns'>
           {res.formats
@@ -34,6 +38,10 @@ const book = async ({ params }) => {
             .map((format) =>
               format.sites.map((site) => (
                 <a key={site.name} href={site.link}>
+<<<<<<< HEAD
+=======
+                  {console.log(site.link)}
+>>>>>>> c7079b11153fc50fbad4eb5a5ad93423a9f14185
                   <button className='buy'>{site.name}</button>
                 </a>
               ))
