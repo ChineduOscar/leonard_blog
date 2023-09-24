@@ -99,27 +99,17 @@ const About = () => {
             <img
               src='/images/pic3.jpg'
               alt='author image'
-<<<<<<< HEAD
               className='home_about_image leo_image'
-=======
-              className='home_about_image'
->>>>>>> c7079b11153fc50fbad4eb5a5ad93423a9f14185
             />
             <img
               src='/images/pic1.jpg'
               alt='author image'
-<<<<<<< HEAD
               className='home_about_image leo_image'
             />
           </div>
           <div className='about_summary'>
             He is a writer, poet, lecturer, a publisher
           </div>
-=======
-              className='home_about_image'
-            />
-          </div>
->>>>>>> c7079b11153fc50fbad4eb5a5ad93423a9f14185
         </div>
       </div>
     </main>
